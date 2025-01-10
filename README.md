@@ -1,5 +1,5 @@
-# ATTiny plant monitoring system prototype
-Even though the number of pins on the ATTiny is very limited, it still allows us to create a simple plant monitoring system with several modes.
+# ATtiny plant monitoring system prototype
+Even though the number of pins on the ATtiny is very limited, it still allows us to create a simple plant monitoring system with several modes.
 
 ![circuit](plant_monitoring.png)
 
