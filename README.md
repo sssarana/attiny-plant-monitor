@@ -3,6 +3,7 @@ Even though the number of pins on the ATTiny is very limited, it still allows us
 
 ![circuit](plant_monitoring.png)
 
+The schema is provided in the PDF file. C++ code is available in tiny_monitor.cpp
 ## Modes
 There are 5 modes that user can change using a button provided. This adjusts a normal moisture level depending on a plant type. 
 One seven segment display is used for a mode indication.
