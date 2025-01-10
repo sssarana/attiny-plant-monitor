@@ -6,7 +6,8 @@ Even though the number of pins on the ATTiny is very limited, it still allows us
 The schema is provided in the PDF file. C++ code is available in tiny_monitor.cpp
 ## Modes
 There are 5 modes that user can change using a button provided. This adjusts a normal moisture level depending on a plant type. 
-One seven segment display is used for a mode indication.
+One 7-segment display is used for a mode indication. 
+4-bit binary counter and 7-segment decoder are combined to minimize the number of pins used in ATTiny.
 * Mode 0 - suitable for succulents and cactuses (normal moisture level is 5-15%)
 * Mode 1 - suitable for most flowers and ornamental shrubs (normal moisture level is 15-30%)
 * Mode 2 - suitable for berries, fruiting vegetables and root vegetables (normal moisture level is 30-45%)
